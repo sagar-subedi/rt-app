@@ -3,6 +3,8 @@ Ram2
 Ram 2.1
 Ram 2.2
 Ram3
+Ram 3.1 remote
+Ram 3.3 remote
 =====
 Ram 4
 Ram 5
