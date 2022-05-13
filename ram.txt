@@ -7,4 +7,6 @@ Ram 3.1 remote
 Ram 3.3 remote
 =====
 Ram 4
+Ram 4.1
+Ram 4.2
 Ram 5
