@@ -62,6 +62,6 @@ function displayRoomName(room){
 
 function displayRoomUsers(users){
     roomUsers.innerHTML = `
-    ${users.map(user => `<li>${user.username}</li>`).join(" ")}
-    `;
+    ${users.map(user => `<li>${user.username}</li>`).join(" ")}`;
+    //I need to learn this syntax homie
 }

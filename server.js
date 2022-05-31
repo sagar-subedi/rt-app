@@ -43,7 +43,7 @@ ios.on('connection', (socket) => {
         const user = userLeave(socket.id);
         
         if(user){
-            ios.emit('message', formatMessage(chatBot, `${user.username} has left the chat`))
+            ios.to(user.room).emit('message', formatMessage(chatBot, `${user.username} has left the chat`))
             ios.to(user.room).emit('roomUsers', {room: user.room, users: getRoomUsers(user.room)})
         }
        
